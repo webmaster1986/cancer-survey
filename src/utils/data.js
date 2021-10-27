@@ -1,0 +1,262 @@
+export const data = [
+  {
+    id: "ID_1",
+    case_number: "",
+    name: "john",
+    post: "Teacher",
+    grade: "10",
+    cohort: "1",
+    teacher: "t",
+    current_status: "Tracked",
+    date_started: "11-10-20",
+    status: "yes"
+  },
+  {
+    id: "ID_2",
+    case_number: "",
+    name: "john1",
+    post: "Teacher",
+    grade: "10",
+    cohort: "1",
+    teacher: "t",
+    current_status: "Tracked",
+    date_started: "11-10-20",
+    status: "yes"
+  },
+  {
+    id: "ID_3",
+    case_number: "",
+    name: "john2",
+    post: "Teacher",
+    grade: "10",
+    cohort: "1",
+    teacher: "t",
+    current_status: "Tracked",
+    date_started: "11-10-20",
+    status: "yes"
+  },
+  {
+    id: "ID_4",
+    case_number: "",
+    name: "john3",
+    post: "Teacher",
+    grade: "10",
+    cohort: "1",
+    teacher: "t",
+    current_status: "Tracked",
+    date_started: "11-10-20",
+    status: "yes"
+  },
+  {
+    id: "ID_5",
+    case_number: "",
+    name: "john4",
+    post: "Teacher",
+    grade: "10",
+    cohort: "1",
+    teacher: "t",
+    current_status: "Tracked",
+    date_started: "11-10-20",
+    status: "yes"
+  },
+  {
+    id: "ID_6",
+    case_number: "",
+    name: "john5",
+    post: "Teacher",
+    grade: "10",
+    cohort: "1",
+    teacher: "t",
+    current_status: "Tracked",
+    date_started: "11-10-20",
+    status: "yes"
+  },
+  {
+    id: "ID_7",
+    case_number: "",
+    name: "john6",
+    post: "Teacher",
+    grade: "10",
+    cohort: "1",
+    teacher: "t",
+    current_status: "Tracked",
+    date_started: "11-10-20",
+    status: "yes"
+  },
+  {
+    id: "ID_8",
+    case_number: "",
+    name: "john7",
+    post: "Teacher",
+    grade: "10",
+    cohort: "1",
+    teacher: "t",
+    current_status: "Tracked",
+    date_started: "11-10-20",
+    status: "yes"
+  },
+  {
+    id: "ID_9",
+    case_number: "",
+    name: "john8",
+    post: "Teacher",
+    grade: "10",
+    cohort: "1",
+    teacher: "t",
+    current_status: "Returned",
+    date_started: "11-10-20",
+    status: "yes"
+  } // eslint-disable-line
+];
+export const updateData = [
+  {
+    number: "1",
+    name: "john",
+    post: "Teacher",
+    date_tracked: "10-10-20",
+    date_notified: "10-10-20",
+    date_of_contact: "10-10-20",
+    s_o_covid: ["wdwd", "rew"],
+    status: "yes"
+  },
+  {
+    number: "2",
+    name: "john",
+    post: "Teacher",
+    date_tracked: "10-10-20",
+    date_notified: "10-10-20",
+    date_of_contact: "10-10-20",
+    s_o_covid: ["wdwd", "rew"],
+    status: "yes"
+  },
+  {
+    number: "3",
+    name: "robin",
+    post: "Teacher",
+    date_tracked: "10-10-20",
+    date_notified: "10-10-20",
+    date_of_contact: "10-10-20",
+    s_o_covid: ["wdwd", "rew"],
+    status: "yes"
+  },
+  {
+    number: "4",
+    name: "robin",
+    post: "Teacher",
+    date_tracked: "10-10-20",
+    date_notified: "10-10-20",
+    date_of_contact: "10-10-20",
+    s_o_covid: ["wdwd", "rew"],
+    status: "yes"
+  },
+  {
+    number: "5",
+    name: "robin",
+    post: "Teacher",
+    date_tracked: "10-10-20",
+    date_notified: "10-10-20",
+    date_of_contact: "10-10-20",
+    s_o_covid: ["wdwd", "rew"],
+    status: "yes"
+  } // eslint-disable-line
+];
+export const data3 = {
+  initialData: {
+    studentIDList: ["1", "2"],
+    caseNumber: "",
+    lastName: "",
+    firstName: "",
+    grade: ["1", "2", "4"],
+    teacher: ["amit", "sad", "dwwf"],
+    isHome: true,
+    PG: true,
+    date: "",
+    reference: "",
+    selectSymptoms: ["wqwq", "aawqwq", "wwwq"],
+    temprature: ["10", "20", "30"],
+    affectedArea: ["a", "b", "c"],
+    isStafNotified: true,
+    selectSymptomsID: [],
+    studentID: "",
+    teacherID: "",
+    gradeID: "",
+    tempratureID: "",
+    affectedAreaID: ""
+  },
+  HourTracker: {
+    checkInDate: "",
+    status: ["Return to school", "Remote  Quarantine"],
+    symptoms: ["ew", "ewew", "ewewdd"],
+    changeRemote: ["ew", "leefe", "ewew"],
+    teacherNotified: ["ew", "eurebd", "ewew"],
+    sisChangeConducted: ["ew", "fsjj", "ewew"],
+    handoutProvided: ["ew", "sfdg", "ewew"],
+    currentStutus: ["def", "Fefe"],
+    covidDate: "",
+    currentStatus: ["Dsd", "dsds"],
+    statusID: "",
+    symptomsID: [],
+    changeRemoteID: "",
+    teacherNotifiedID: "",
+    sisChangeConductedID: "",
+    currentStatusID: [],
+    handoutProvidedID: ""
+  },
+  ReturnTracker: {
+    checkInDate: "",
+    anticipatedReturnDate: "",
+    teacherNotifiedReturn: ["re", "Rere", "Rer"],
+    teacherNotifiedReturnDate: ["ss", "dwd", "dww"],
+    studentNegativeCovidTest: ["Re", "Rere", "wergf"],
+    studentNegativeCovidTestDate: "",
+    studentReturn: ["Ee", "Rere", "sfde"],
+    studentChangeSis: ["dsd", "Dsds", "sd"],
+    studentReturnDate: "",
+    currentSymptoms: ["ewew", "ew", "Ee", "we"],
+    currentSymptomsID: [],
+    teacherNotifiedReturnDateID: "",
+    teacherNotifiedReturnID: "",
+    studentNegativeCovidTestID: "",
+    studentReturnID: "",
+    studentChangeSisID: ""
+  },
+  error: {
+    initialDataError: {
+      selectSymptomsID: "",
+      studentID: "",
+      teacherID: "",
+      caseNumber: "",
+      lastName: "",
+      firstName: "",
+      date: "",
+      reference: "",
+      gradeId: "",
+      studentGrade: "",
+      tempratureID: "",
+      affectedAreaID: ""
+    },
+    hourTrackerError: {
+      covidDate: "",
+      currentStatus: "",
+      statusID: "",
+      symptomsID: "",
+      changeRemoteID: "",
+      teacherNotifiedID: "",
+      sisChangeConductedID: "",
+      handoutProvidedID: "",
+      currentStatusID: ""
+    },
+    returnTrackerError: {
+      checkInDate: "",
+      anticipatedReturnDate: "",
+      studentNegativeCovidTestDate: "",
+      studentReturnDate: "",
+      teacherNotifiedReturnDateID: "",
+      teacherNotifiedReturnID: "",
+      studentNegativeCovidTestID: "",
+      studentReturnID: "",
+      studentChangeSisID: "",
+      currentSymptomsID: ""
+    }
+  }
+};

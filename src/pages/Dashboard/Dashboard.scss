@@ -1,0 +1,122 @@
+@import "./src/common/styles/variables";
+
+.page-container{
+  background-image: url("../../asserts/images/background.jpg");
+  background-repeat: no-repeat;
+  //background-size: cover;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  .container-fluid{
+    justify-content: center;
+  }
+  .main-modal{
+    min-height: 400px;
+    background: white;
+    opacity: 0.9;
+    margin-top: 200px;
+    padding: 45px 45px;
+    .heading-1{
+      color: #2a2929;
+      font-size: 45px;
+      margin-bottom: 35px;
+    }
+    .ant-select{
+      .ant-select-selector{
+        height: 50px;
+        .ant-select-selection-search{
+          .ant-select-selection-search-input{
+            height: 47px;
+          }
+        }
+      }
+      .ant-select-selection-placeholder, .ant-select-show-search,.ant-select-selection-item{
+        line-height: 47px;
+        font-size: 20px;
+      }
+    }
+    .ant-select:not(.ant-select-customize-input) .ant-select-selector{
+      border: 1px solid #2a2929;
+    }
+    .condition{
+      display: flex;
+      justify-content: center;
+    }
+    .add-more{
+      button{
+        padding: 10px 50px;
+        letter-spacing: 3px;
+        font-size: 20px;
+      }
+      .add-location{
+        cursor: pointer;
+      }
+    }
+  }
+
+
+  .ant-form-item-label {
+    color: $color_darkGreen !important;
+  }
+  .ant-form-item-control-input {
+    outline: 0 !important;
+    border-width: 0 0 2px !important;
+  }
+  .ant-input:focus {
+    outline: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .ant-layout{
+    background: #FFFFFF !important;
+  }
+  .ant-input:hover{
+    border-color : black !important;
+  }
+  .ant-input{
+    border: none !important;
+    border-bottom: 1px solid black !important;
+  }
+  .ant-form-item-label{
+    white-space: unset !important
+  }
+  .ant-form-item-label > label::after{
+    margin: 0px 8px 0px 8px !important;
+  }
+
+  .ant-form-item-label > label  {
+    color: $color_darkGreen !important;
+  }
+
+  .table-row-light {
+    background-color: #ffffff;
+  }
+  .table-row-dark {
+    background-color: #f2f2f2;
+  }
+
+  th{
+    background-color: $color_darkGreen!important;
+  }
+
+  .outer-box{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+  }
+  .dark-box{
+    background-color:$color_darkGreen;
+    width: 100%;
+    color: $color_white;
+    padding-left: $m_20;
+    border-bottom: 2px solid white !important;
+  }
+  .light-box{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid black !important;
+    color: $color_darkGreen;
+  }
+  a:not([href]):not([class]){
+    text-decoration: underline;
+  }
+}

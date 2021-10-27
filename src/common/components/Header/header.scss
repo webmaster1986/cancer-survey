@@ -1,0 +1,28 @@
+@import "./src/common/styles/variables";
+
+.Header{
+  background: #fafafa;
+  //padding: 20px;
+  display: block;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  .navbar{
+    .nav{
+      flex-direction: unset !important;
+      display: contents;
+      div{
+        padding: 1px 10px 1px 10px;
+        a{
+          color: #4a4747de !important;
+          &:hover{
+            text-decoration: none !important;
+          }
+        }
+        .selected{
+          //background: #848FA2;
+        }
+      }
+    }
+  }
+}
