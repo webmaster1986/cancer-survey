@@ -94,17 +94,17 @@
                             "location": []
                           },
                           {
-                            "key": "Muscle",
+                            "key": 2,
                             "label": "Muscle",
                             "location": []
                           },
                           {
-                            "key": 2,
+                            "key": 3,
                             "label": "Lymph node(s)",
                             "location": []
                           },
                           {
-                            "key": 3,
+                            "key": 4,
                             "label": "Bone",
                             "location": [
                               { "key": 1, "label": "Pelvis", "location": [] },
@@ -119,9 +119,9 @@
                               }
                             ]
                           },
-                          { "key": 4, "label": "Other", "location": [] },
+                          { "key": 5, "label": "Other", "location": [] },
                           {
-                            "key": 5,
+                            "key": 6,
                             "label": "I don't know",
                             "location": []
                           }
@@ -225,59 +225,59 @@
                         "label": "Hind",
                         "location": [
                           {
-                            "key": "Skin/subcutaneous",
+                            "key": 1,
                             "label": "Skin/subcutaneous",
                             "location": []
                           },
                           {
-                            "key": "Muscle",
+                            "key": 2,
                             "label": "Muscle",
                             "location": []
                           },
                           {
-                            "key": "Lymph node(s)",
+                            "key": 3,
                             "label": "Lymph node(s)",
                             "location": []
                           },
                           {
-                            "key": "Bone",
+                            "key": 4,
                             "label": "Bone",
                             "location": [
                               {
-                                "key": "Pelvis",
+                                "key": 1,
                                 "label": "Pelvis",
                                 "location": []
                               },
                               {
-                                "key": "Femur",
+                                "key": 2,
                                 "label": "Femur",
                                 "location": []
                               },
                               {
-                                "key": "Tibia",
+                                "key": 3,
                                 "label": "Tibia",
                                 "location": []
                               },
                               {
-                                "key": "Fibia",
+                                "key": 4,
                                 "label": "Fibia",
                                 "location": []
                               },
                               {
-                                "key": "Other",
+                                "key": 5,
                                 "label": "Other",
                                 "location": []
                               },
                               {
-                                "key": "I don't know",
+                                "key": 6,
                                 "label": "I don't know",
                                 "location": []
                               }
                             ]
                           },
-                          { "key": "Other", "label": "Other", "location": [] },
+                          { "key": 5, "label": "Other", "location": [] },
                           {
-                            "key": "I don't know",
+                            "key": 6,
                             "label": "I don't know",
                             "location": []
                           }
@@ -287,25 +287,25 @@
                         "key": 3,
                         "label": "Paw",
                         "location": [
-                          { "key": "Bone", "label": "Bone", "location": [] },
+                          { "key": 1, "label": "Bone", "location": [] },
                           {
-                            "key": "Muscle",
+                            "key": 2,
                             "label": "Muscle",
                             "location": []
                           },
                           {
-                            "key": "Nailbed",
+                            "key": 3,
                             "label": "Nailbed",
                             "location": []
                           },
                           {
-                            "key": "Skin/Pad",
+                            "key": 4,
                             "label": "Skin/Pad",
                             "location": []
                           },
-                          { "key": "Other", "label": "Other", "location": [] },
+                          { "key": 5, "label": "Other", "location": [] },
                           {
-                            "key": "I don't know",
+                            "key": 6,
                             "label": "I don't know",
                             "location": []
                           }

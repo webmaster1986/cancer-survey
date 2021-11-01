@@ -1,11 +1,11 @@
 @import "./src/common/styles/variables";
 
 .page-container{
-  background-image: url("../../asserts/images/background.jpg");
-  background-repeat: no-repeat;
-  //background-size: cover;
-  min-height: 100vh;
-  background-size: 100% 100%;
+  //background-image: url("../../asserts/images/background.jpg");
+  //background-repeat: no-repeat;
+  ////background-size: cover;
+  //min-height: 100vh;
+  //background-size: 100% 100%;
   .container-fluid{
     justify-content: center;
   }
@@ -19,6 +19,10 @@
       color: #2a2929;
       font-size: 45px;
       margin-bottom: 35px;
+    }
+    .remove-btn{
+      display: grid;
+      padding: 0;
     }
     .ant-select{
       .ant-select-selector{

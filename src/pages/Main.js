@@ -4,7 +4,7 @@ import { withRouter, Route, Switch } from "react-router-dom";
 import { unAuthRoutes } from "../routes";
 import { fetchUserDetails } from "../redux/modules/userDetails/userDetailsActions";
 import Header from "../common/components/Header";
-
+import "./main.scss";
 // const LoggedInRoutes = user =>
 //   authRoutes.map((r, i) => (
 //     <Route

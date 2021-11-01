@@ -1,0 +1,370 @@
+[
+  { "key": 1, "label": "Head", "location": [
+    {"key": 1, "label": "Skin/subcutaneous", "location": [
+      {"key": 1, "label": "Ear", "location": []},
+      {"key": 2, "label": "Eye", "location": []},
+      {"key": 3, "label": "Lip", "location": []},
+      {"key": 4, "label": "Nose", "location": []},
+      {"key": 5, "label": "Other", "location": []},
+      {"key": 6, "label": "I don't know", "location": []}
+    ]},
+    {"key": 2, "label": "Muscle", "location": []},
+    {"key": 3, "label": "Bone", "location": [
+      {"key": 1, "label": "Upper jaw", "location": []},
+      {"key": 2, "label": "Lower jaw", "location": []},
+      {"key": 3, "label": "Skull", "location": []},
+      {"key": 4, "label": "Other", "location": []},
+      {"key": 5, "label": "I don't know", "location": []}
+    ]},
+    {"key": 4, "label": "Ear", "location": []},
+    {"key": 5, "label": "Eye", "location": []},
+    {"key": 6, "label": "Nose", "location": []},
+    {"key": 7, "label": "Mouth", "location": [
+      {"key": 1, "label": "Lip", "location": []},
+      {"key": 2, "label": "Tongue", "location": []},
+      {"key": 3, "label": "Gums", "location": []},
+      {"key": 4, "label": "Tooth", "location": []},
+      {"key": 5, "label": "Upper jaw", "location": []},
+      {"key": 6, "label": "Lower jaw", "location": []},
+      {"key": 7, "label": "Other", "location": []},
+      {"key": 8, "label": "I don't know", "location": []}
+    ]},
+    {"key": 8, "label": "Brain", "location": []},
+    {"key": 9, "label": "Lymph node(s)", "location": []},
+    {"key": 10, "label": "Other", "location": []},
+    {"key": 11, "label": "I don't know", "location": []}
+  ] },
+  { "key": 2, "label": "Neck", "location": [
+    {"key": 1, "label": "Skin/subcutaneous", "location": []},
+    {"key": 2, "label": "Muscle", "location": []},
+    {"key": 3, "label": "Bone", "location": [
+      {"key": 1, "label": "Vertebra (spine)", "location": []},
+      {"key": 2, "label": "Other", "location": []},
+      {"key": 3, "label": "I don't know", "location": []}
+    ]},
+    {"key": 4, "label": "Esophagus", "location": []},
+    {"key": 5, "label": "Trachea (wind-pipe)", "location": []},
+    {"key": 6, "label": "Thyroid", "location": []},
+    {"key": 7, "label": "Parathyroid", "location": []},
+    {"key": 8, "label": "Lymph node(s)", "location": []},
+    {"key": 9, "label": "Other", "location": []},
+    {"key": 10, "label": "I don't know", "location": []}
+  ] },
+  { "key": 3, "label": "Back", "location": [
+    { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+    { "key": 2, "label": "Muscle", "location": [] },
+    { "key": 3, "label": "Bone", "location": [
+      { "key": 1, "label": "Vertebra (spine)", "location": [] },
+      { "key": 2, "label": "Scapula (shoulder blade)", "location": [] },
+      { "key": 3, "label": "Other", "location": [] },
+      { "key": 4, "label": "I don't know", "location": [] }
+    ] },
+    { "key": 4, "label": "Lymph node(s)", "location": [] },
+    { "key": 5, "label": "Other", "location": [] },
+    { "key": 6, "label": "I don't know", "location": [] }
+  ] },
+  { "key": 4, "label": "Chest", "location": [
+    { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+    { "key": 2, "label": "Muscle", "location": [] },
+    { "key": 3, "label": "Bone", "location": [
+      { "key": 1, "label": "Clavicle (collarbone)", "location": [] },
+      { "key": 2, "label": "Rib", "location": [] },
+      { "key": 3, "label": "Sternum (breastbone)", "location": [] },
+      { "key": 4, "label": "Other", "location": [] },
+      { "key": 5, "label": "I don't know", "location": [] }
+    ] },
+    { "key": 4, "label": "Mammary gland", "location": [] },
+    { "key": 5, "label": "Diaphragm", "location": [] },
+    { "key": 6, "label": "Internal organ", "location": [
+      { "key": 1, "label": "Heart", "location": [] },
+      { "key": 2, "label": "Lungs", "location": [] },
+      { "key": 3, "label": "Thymus", "location": [] },
+      { "key": 4, "label": "Other", "location": [] },
+      { "key": 5, "label": "I don't know", "location": [] }
+    ] },
+    { "key": 7, "label": "Lymph node(s)", "location": [] },
+    { "key": 8, "label": "Pleura", "location": [] },
+    { "key": 9, "label": "Other", "location": [] },
+    { "key": 10, "label": "I don't know", "location": [] }
+  ] },
+  { "key": 5, "label": "Abdomen", "location": [
+    { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+    { "key": 2, "label": "Muscle", "location": [] },
+    { "key": 3, "label": "Bone", "location": [
+      { "key": 1, "label": "Pelvis", "location": [] },
+      { "key": 2, "label": "Vertebra (spine)", "location": [] },
+      { "key": 3, "label": "Other", "location": [] },
+      { "key": 4, "label": "I don't know", "location": [] }
+    ] },
+    { "key": 4, "label": "Internal organ", "location": [
+      { "key": 1, "label": "Spleen", "location": [] },
+      { "key": 2, "label": "Liver", "location": [] },
+      { "key": 3, "label": "Gall bladder", "location": [] },
+      { "key": 4, "label": "Kidneys", "location": [] },
+      { "key": 5, "label": "Adrenal glands", "location": [] },
+      { "key": 5, "label": "Stomach", "location": [] },
+      { "key": 6, "label": "Small intestine", "location": [] },
+      { "key": 7, "label": "Large intestine", "location": [] },
+      { "key": 8, "label": "Pancreas", "location": [] },
+      { "key": 9, "label": "Ovary", "location": [] },
+      { "key": 10, "label": "Uterus", "location": [] },
+      { "key": 11, "label": "Bladder", "location": [] },
+      { "key": 12, "label": "Urethra", "location": [] },
+      { "key": 13, "label": "Prostate", "location": [] },
+      { "key": 14, "label": "Other", "location": [] },
+      { "key": 15, "label": "I don't know", "location": [] }
+    ] },
+    { "key": 5, "label": "Lymph node(s)", "location": [] },
+    { "key": 6, "label": "Mammary gland", "location": [] },
+    { "key": 7, "label": "Other", "location": [] },
+    { "key": 8, "label": "I don't know", "location": [] }
+  ] },
+  { "key": 6, "label": "Limb", "location": [
+    { "key": 1, "label": "Front", "location": [
+      { "key": 1, "label": "Right", "location": [
+        { "key": 1, "label": "Leg", "location": [
+          { "key": 1, "label": "Front", "location": [
+            { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Lymph node(s)", "location": [] },
+            { "key": 4, "label": "Bone", "location": [
+              { "key": 1, "label": "Scapula (shoulder blade)", "location": [] },
+              { "key": 2, "label": "Humerus", "location": [] },
+              { "key": 3, "label": "Radius", "location": [] },
+              { "key": 4, "label": "Ulna", "location": [] },
+              { "key": 5, "label": "Other", "location": [] },
+              { "key": 6, "label": "I don't know", "location": [] }
+            ] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] },
+          { "key": 2, "label": "Hind", "location": [
+            { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Lymph node(s)", "location": [] },
+            { "key": 4, "label": "Bone", "location": [
+              { "key": 1, "label": "Pelvis", "location": [] },
+              { "key": 2, "label": "Femur", "location": [] },
+              { "key": 3, "label": "Tibia", "location": [] },
+              { "key": 4, "label": "Fibia", "location": [] },
+              { "key": 5, "label": "Other", "location": [] },
+              { "key": 6, "label": "I don't know", "location": [] }
+            ] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] },
+          { "key": 3, "label": "Paw", "location": [
+            { "key": 1, "label": "Bone", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Nailbed", "location": [] },
+            { "key": 4, "label": "Skin/Pad", "location": [] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] }
+        ] },
+        { "key": 2, "label": "Paw", "location": [
+          { "key": 1, "label": "Bone", "location": [] },
+          { "key": 2, "label": "Muscle", "location": [] },
+          { "key": 3, "label": "Nailbed", "location": [] },
+          { "key": 4, "label": "Other", "location": [] },
+          { "key": 5, "label": "I don't know", "location": [] }
+        ] },
+        { "key": 3, "label": "Other", "location": [] },
+        { "key": 4, "label": "I don't know", "location": [] }
+      ] },
+      { "key": 2, "label": "Left", "location": [
+        { "key": 1, "label": "Leg", "location": [
+          { "key": 1, "label": "Front", "location": [
+            { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Lymph node(s)", "location": [] },
+            { "key": 4, "label": "Bone", "location": [
+              { "key": 1, "label": "Scapula (shoulder blade)", "location": [] },
+              { "key": 2, "label": "Humerus", "location": [] },
+              { "key": 3, "label": "Radius", "location": [] },
+              { "key": 4, "label": "Ulna", "location": [] },
+              { "key": 5, "label": "Other", "location": [] },
+              { "key": 6, "label": "I don't know", "location": [] }
+            ] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] },
+          { "key": 2, "label": "Hind", "location": [
+            { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Lymph node(s)", "location": [] },
+            { "key": 4, "label": "Bone", "location": [
+              { "key": 1, "label": "Pelvis", "location": [] },
+              { "key": 2, "label": "Femur", "location": [] },
+              { "key": 3, "label": "Tibia", "location": [] },
+              { "key": 4, "label": "Fibia", "location": [] },
+              { "key": 5, "label": "Other", "location": [] },
+              { "key": 6, "label": "I don't know", "location": [] }
+            ] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] },
+          { "key": 3, "label": "Paw", "location": [
+            { "key": 1, "label": "Bone", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Nailbed", "location": [] },
+            { "key": 4, "label": "Skin/Pad", "location": [] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] }
+        ] },
+        { "key": 2, "label": "Paw", "location": [
+          { "key": 1, "label": "Bone", "location": [] },
+          { "key": 2, "label": "Muscle", "location": [] },
+          { "key": 3, "label": "Nailbed", "location": [] },
+          { "key": 4, "label": "Skin/Pad", "location": [] },
+          { "key": 5, "label": "Other", "location": [] },
+          { "key": 6, "label": "I don't know", "location": [] }
+        ] },
+        { "key": 3, "label": "Other", "location": [] },
+        { "key": 4, "label": "I don't know", "location": [] }
+      ] },
+      { "key": 3, "label": "I don't know", "location": [] }
+    ] },
+    { "key": 2, "label": "Hind", "location": [
+      { "key": 1, "label": "Right", "location": [
+        { "key": 1, "label": "Leg", "location": [
+          { "key": 1, "label": "Front", "location": [
+            { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Lymph node(s)", "location": [] },
+            { "key": 4, "label": "Bone", "location": [
+              { "key": 1, "label": "Scapula (shoulder blade)", "location": [] },
+              { "key": 2, "label": "Humerus", "location": [] },
+              { "key": 3, "label": "Radius", "location": [] },
+              { "key": 4, "label": "Ulna", "location": [] },
+              { "key": 5, "label": "Other", "location": [] },
+              { "key": 6, "label": "I don't know", "location": [] }
+            ] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] },
+          { "key": 2, "label": "Hind", "location": [
+            { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Lymph node(s)", "location": [] },
+            { "key": 4, "label": "Bone", "location": [
+              { "key": 1, "label": "Pelvis", "location": [] },
+              { "key": 2, "label": "Femur", "location": [] },
+              { "key": 3, "label": "Tibia", "location": [] },
+              { "key": 4, "label": "Fibia", "location": [] },
+              { "key": 5, "label": "Other", "location": [] },
+              { "key": 6, "label": "I don't know", "location": [] }
+            ] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] },
+          { "key": 3, "label": "Paw", "location": [
+            { "key": 1, "label": "Bone", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Nailbed", "location": [] },
+            { "key": 4, "label": "Skin/Pad", "location": [] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] }
+        ] },
+        { "key": 2, "label": "Paw", "location": [
+          { "key": 1, "label": "Bone", "location": [] },
+          { "key": 2, "label": "Muscle", "location": [] },
+          { "key": 3, "label": "Nailbed", "location": [] },
+          { "key": 4, "label": "Skin/Pad", "location": [] },
+          { "key": 5, "label": "Other", "location": [] },
+          { "key": 6, "label": "I don't know", "location": [] }
+        ] },
+        { "key": 3, "label": "Other", "location": [] },
+        { "key": 4, "label": "I don't know", "location": [] }
+      ] },
+      { "key": 2, "label": "Left", "location": [
+        { "key": 1, "label": "Leg", "location": [
+          { "key": 1, "label": "Front", "location": [
+            { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Lymph node(s)", "location": [] },
+            { "key": 4, "label": "Bone", "location": [
+              { "key": 1, "label": "Scapula (shoulder blade)", "location": [] },
+              { "key": 2, "label": "Humerus", "location": [] },
+              { "key": 3, "label": "Radius", "location": [] },
+              { "key": 4, "label": "Ulna", "location": [] },
+              { "key": 5, "label": "Other", "location": [] },
+              { "key": 6, "label": "I don't know", "location": [] }
+            ] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] },
+          { "key": 2, "label": "Hind", "location": [
+            { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Lymph node(s)", "location": [] },
+            { "key": 4, "label": "Bone", "location": [] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] },
+          { "key": 3, "label": "Paw", "location": [
+            { "key": 1, "label": "Bone", "location": [] },
+            { "key": 2, "label": "Muscle", "location": [] },
+            { "key": 3, "label": "Nailbed", "location": [] },
+            { "key": 4, "label": "Skin/Pad", "location": [] },
+            { "key": 5, "label": "Other", "location": [] },
+            { "key": 6, "label": "I don't know", "location": [] }
+          ] }
+        ] },
+        { "key": 2, "label": "Paw", "location": [
+          { "key": 1, "label": "Bone", "location": [] },
+          { "key": 2, "label": "Muscle", "location": [] },
+          { "key": 3, "label": "Nailbed", "location": [] },
+          { "key": 4, "label": "Skin/Pad", "location": [] },
+          { "key": 5, "label": "Other", "location": [] },
+          { "key": 6, "label": "I don't know", "location": [] }
+        ] },
+        { "key": 3, "label": "Other", "location": [] },
+        { "key": 4, "label": "I don't know", "location": [] }
+      ] },
+      { "key": 3, "label": "I don't know", "location": [] }
+    ] },
+    { "key": 3, "label": "I don't know", "location": [] }
+  ] },
+  { "key": 7, "label": "Tail", "location": [
+    { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+    { "key": 2, "label": "Muscle", "location": [] },
+    { "key": 3, "label": "Bone", "location": [
+      { "key": 1, "label": "Vertebra (spine)", "location": [] },
+      { "key": 2, "label": "I don't know", "location": [] }
+    ] },
+    { "key": 4, "label": "Other", "location": [] },
+    { "key": 5, "label": "I don't know", "location": [] }
+  ] },
+  { "key": 8, "label": "Near anus", "location": [
+    { "key": 1, "label": "Skin/subcutaneous", "location": [] },
+    { "key": 2, "label": "Muscle", "location": [] },
+    { "key": 3, "label": "Rectum", "location": [] },
+    { "key": 4, "label": "Anus", "location": [] },
+    { "key": 5, "label": "Anal glands/sacs", "location": [] },
+    { "key": 6, "label": "Other", "location": [] },
+    { "key": 7, "label": "I don't know", "location": [] }
+  ] },
+  { "key": 9, "label": "Genital", "location": [
+    { "key": 1, "label": "Penis", "location": [] },
+    { "key": 2, "label": "Testes", "location": [] },
+    { "key": 3, "label": "Scrotum", "location": [] },
+    { "key": 4, "label": "Prepuce", "location": [] },
+    { "key": 5, "label": "Vagina", "location": [] },
+    { "key": 6, "label": "Vulva", "location": [] },
+    { "key": 7, "label": "Other", "location": [] },
+    { "key": 8, "label": "I don't know", "location": [] }
+  ] },
+  { "key": 10, "label": "Blood", "location": [] },
+  { "key": 11, "label": "Lymph node(s)", "location": [
+    { "key": 1, "label": "Single", "location": [] },
+    { "key": 2, "label": "Multiple", "location": [] },
+    { "key": 3, "label": "Other", "location": [] },
+    { "key": 4, "label": "I don't know", "location": [] }
+  ] },
+  { "key": 12, "label": "Several locations", "location": [] },
+  { "key": 13, "label": "I don't know", "location": [] },
+  { "key": 14, "label": "Other", "location": [] }
+]
